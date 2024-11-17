@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: lato;
+	src: url("../font/Lato-Regular.ttf");
+}
+.tong1{
+	font-family: lato;
+}
+.header{
+	height: 80px;
+	background: rgb(75, 132, 125);
+	color: white;
+}
+.header img{
+	width: 35%;
+	height: 70px;
+	margin-top: -7px;
+}
+.header ul{
+	width: 100%;
+	height: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header ul li {
+	width: 100%;
+	height: 80px;
+	background:rgb(75, 132, 125);
+	text-align: center;
+	padding-top: 20px;
+}
+.header ul li:hover{
+	background: #31554C;
+}
+.header ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 10px;
+}
+.col-6 ul li ul li{
+	width: 100%;
+	
+}
+.col-4 input{
+	width: 300%;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 20px;
+	border: #F40004 solid 1px;
+
+}	
+.banner{
+	width: 100%;
+	height: auto;
+	min-height: 900px;
+	background-image: url( "../img/salmon-tuna-shell-shrimp-other-meat-sushi-maki.jpg");
+	background-size: cover;
+}
+.tieude{
+	width: 100%;
+	height: 10px;
+	padding-top: 40px;
+	color: #94A4A7;
+		
+}
+h3{
+	margin-left: 40px;
+}
+h1{
+	color: #94A4A7;
+	margin-left: 20px;
+	
+}
+.c4 h1{
+	margin-left: 80px;
+}
+.section1{
+	margin-top: 40px;
+}
+.hinhanh{
+	width: 100%;
+	height: 250px;
+	background: #96BEAB;
+	overflow: hidden;
+	position: relative;
+}
+.hinhanh img{
+	width: 146%;
+	position: absolute;
+	left: -45px;
+
+}
+h2{
+	color:#94A4A7;
+}
+.section2{
+	width: 100%;
+	height: 300px;
+	background:rgb(75, 132, 125);
+	margin-top: 30px;
+}
+.vanban{
+	width: 50%;
+	height: 300px;
+	float: left;
+	padding: 60px 0 60px 100px;
+	box-sizing: border-box;
+}
+.vanban h1{
+	font-size: 45px;
+	margin-left: -6px;
+	color: white;
+}
+.vanban h6{
+	width: 50%;
+	margin-top: 30px;
+	color: white;
+}
+button.get{
+	width: 20%;
+	height: 30px;
+	background: #19D253;
+	border-radius: 30px;
+	border: none;
+	margin-top: 10px;
+	color: white;
+}
+.hinhanh2{
+	width: 40%;
+	height: 300px;
+	float: left;
+	margin-left: 60px;
+}
+.hinhanh2 img{
+	width: 106%;
+	height: 300px;
+}
+.section3{
+height: 340px;
+}
+.mon{
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.hinh{
+	width: 100%;
+	height: 290px;
+	background: #922022;
+	margin-top: 20px;
+	border-radius: 150px;
+	overflow: hidden;
+	position: relative;
+}
+.hinh img{
+	width: 110%;
+	position: absolute;
+	top: -80px;
+}
+.section5{
+	margin-top: 60px;
+}
+.page img{
+	width: 50%;
+	height: 90px;
+}
+.home ul{
+	list-style: none;
+}
+.home ul li{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.home ul li a{
+	text-decoration: none;
+	color:#000000;
+}
+.contact p{
+	margin-top: 10px;
+}
